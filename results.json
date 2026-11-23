@@ -1,0 +1,70 @@
+{
+  "configuration": {
+    "year": 2022,
+    "missing_fraction_max": 0.5,
+    "log_gdp": true,
+    "pca_variance_target": 0.8,
+    "k_values": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "random_state": 42,
+    "n_init": 50,
+    "hierarchical_linkage": "ward"
+  },
+  "counts": {
+    "wdi_entities": 266,
+    "metadata_economies": 217,
+    "matched_economies": 217,
+    "excluded": 12,
+    "retained": 205,
+    "complete_cases": 110
+  },
+  "features": [
+    "GDP_PC",
+    "GDP_Growth",
+    "Inflation",
+    "Unemployment",
+    "Trade",
+    "Capital_Formation",
+    "Life_Expectancy",
+    "Urban_Population",
+    "Internet_Users",
+    "Electricity_Access",
+    "Secondary_Enrollment"
+  ],
+  "metadata": "Retrieved from official Country API on 2026-11-23",
+  "n_components": 6,
+  "retained_variance": 0.8466687625015747,
+  "first_two_variance": 0.5112620845597924,
+  "selected_k": 2,
+  "kmeans_sizes": {
+    "1": 60,
+    "2": 145
+  },
+  "ward_sizes": {
+    "1": 58,
+    "2": 147
+  },
+  "kmeans_silhouette": 0.3571848749701809,
+  "ward_silhouette": 0.34000250285977707,
+  "ari_between_methods": 0.5712252539920316,
+  "nmi_between_methods": 0.42121382258223433,
+  "imputed_values": 197,
+  "negative_silhouette_n": 2,
+  "minimum_seed_ARI": 1.0,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2"
+  }
+}

@@ -1,0 +1,5 @@
+DATA AUDIT: {'wdi_entities': 266, 'metadata_economies': 217, 'matched_economies': 217, 'excluded': 12, 'retained': 205, 'complete_cases': 110}
+2022 is retained from the supplied project baseline: broad coverage, one common year, no cross-year filling.
+Income/region labels describe the metadata snapshot, not historical 2022 classifications.
+PASS: provenance hashes, exact frozen-data counts, no label leakage, scaling/PCA,
+main and original-baseline results, saved assignments, and required exported analyses.
